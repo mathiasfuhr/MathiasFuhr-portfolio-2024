@@ -1,0 +1,84 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(
+    133.8% 75.26% at 50% 0%,
+    #4e019c 15%,
+    #3b0474 35%,
+    #2a064e 55%,
+    #14081d 80%,
+    #08030b 100%
+  );
+  display: flex;
+}
+
+/* Estilos para as estrelas */
+.star {
+  position: fixed;
+  background: white;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  animation: shooting-star linear infinite;
+}
+
+/* Estilos para as estrelas cadentes */
+.shooting-star {
+  position: fixed;
+  background: white;
+  width: 3px;
+  height: 2px;
+  border-radius: 50%;
+  animation: shooting-star-animation linear infinite;
+}
+
+/* Definição da animação */
+@keyframes shooting-star {
+  from {
+    transform: translateY(-100vh);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+/* Definição da animação das estrelas cadentes */
+@keyframes shooting-star-animation {
+  from {
+    transform: translateY(-10vh) translateX(-5vw);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(110vh) translateX(100vw);
+    opacity: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.card-name {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white; /* Cor do texto do nome do card */
+  padding: 5px;
+  font-size: 14px;
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.3s; /* Adiciona uma transição suave */
+}
+
+.card:hover .card-name {
+  opacity: 1; /* Mostra o nome do card quando passa o mouse sobre ele */
+}
+

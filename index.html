@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/svg-inject.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Mathias Fuhr</title>
+  </head>
+  <body>
+    <div class="banner">
+      <header >
+        <div class="container"data-aos="fade-down">
+          <div class="logo">
+            <a href="" id="/">
+              <img
+                src="svgs/logo.svg"
+                id="logo"
+                onload="SVGInject(this)"
+                alt=""
+              />
+            </a>
+          </div>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <section class="s-hero" >
+        <h1 class="typing-animation">
+          Desenvolvedor Front End & UX/UI Designer<span class="cursor"></span>
+        </h1>
+        <p class="typing-animation">
+          Olá! Me chamo Mathias Fuhr, é um prazer ter você aqui 😄
+        </p>
+      </section>
+    </div>
+    <div class="stars"></div>
+    <div class="shooting-stars"></div>
+
+    <div class="s-about" id="sobre">
+      <div class="container">
+        <div class="card">
+          <div class="card-img" data-aos="fade-right"></div>
+          <div class="text" data-aos="fade-left">
+            <h2>Sobre Mathias</h2>
+            <p>
+              Já atuei como freelancer em design gráfico e atualmente estudo
+              diariamente e faço projetos para aprimorar minhas habilidades em
+              programação. Minhas habilidades incluem: HTML, CSS, JavaScript,
+              Sass e Bootstrap. Meu foco é evoluir na carreira enquanto
+              contribuo para criar sites intuitivos e visualmente atrativos.
+              Estou motivada a absorver conhecimento, colaborar em equipe e
+              crescer profissionalmente em um ambiente que valoriza a inovação e
+              o desenvolvimento contínuo.
+            </p>
+            <ul data-aos="fade-up">
+              <li >
+                <a href="https://github.com/mathiasfuhr" target="_blank"
+                  ><img
+                    src="svgs/Link → gitHub.svg.svg"
+                    alt=""
+                    onload="SVGInject(this)"
+                /></a>
+              </li>
+              <li>
+                <a href="mailto:mathiasgilvanf@gmail.com"
+                  ><img src="svgs/email.svg" alt="" onload="SVGInject(this)"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/mathias-g-fuhr/"
+                  target="_blank"
+                  ><img
+                    src="svgs/icons8-linkedin-24.svg"
+                    alt=""
+                    onload="SVGInject(this)"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/5511987654321/?text=Ola%2C%20estou%20entrando%20em%20contato"
+                  target="_blank"
+                  ><img src="svgs/whatsapp.svg" alt="" onload="SVGInject(this)"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="s-projects" id="projetos">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="cards">
+          <div class="card" >
+            <div class="card-img" data-aos="fade-right">
+              <img src="image/nexcenter.png" alt="" />
+            </div>
+            <div class="card-text" data-aos="zoom-in">
+              <h3>Projeto 1</h3>
+              <p>Landing page Alura+, feito em HTML e CSS.</p>
+              <div class="card-links">
+                <a href="" target="_blank">Visualizar Projeto</a>
+                <a href="" target="_blank"
+                  ><img src="svgs/Link → gitHub.svg.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img" data-aos="fade-up">
+              <img src="image/nexcenter.png" alt="" />
+            </div>
+            <div class="card-text"data-aos="zoom-in">
+              <h3>Projeto 1</h3>
+              <p>Landing page Alura+, feito em HTML e CSS.</p>
+              <div class="card-links">
+                <a href="" target="_blank">Visualizar Projeto</a>
+                <a href="" target="_blank"
+                  ><img src="svgs/Link → gitHub.svg.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img" data-aos="fade-left">
+              <img src="image/nexcenter.png" alt="" />
+            </div>
+            <div class="card-text" data-aos="zoom-in">
+              <h3>Projeto 1</h3>
+              <p>Landing page Alura+, feito em HTML e CSS.</p>
+              <div class="card-links">
+                <a href="" target="_blank">Visualizar Projeto</a>
+                <a href="" target="_blank"
+                  ><img src="svgs/Link → gitHub.svg.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="more-projects hidden">
+            <div class="card">
+              <div class="card-img">
+                <img src="image/nexcenter.png" alt="" />
+              </div>
+              <div class="card-text" >
+                <h3>Projeto 1</h3>
+                <p>Landing page Alura+, feito em HTML e CSS.</p>
+                <div class="card-links">
+                  <a href="" target="_blank">Visualizar Projeto</a>
+                  <a href="" target="_blank"
+                    ><img src="svgs/Link → gitHub.svg.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" id="show-more-projects" class="open-projects"
+          >Visualizar todos os projetos...</a
+        >
+      </div>
+    </section>
+
+    <section class="skills" id="conhecimentos">
+      <div class="container">
+        <h2>Conhecimentos.</h2>
+        <span>*Passe o mouse no card*</span>
+        <div class="cards">
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/html.svg" alt="" onload="SVGInject(this)"  />
+            <div class="card-name">HTML</div>
+          </div>
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/css.svg" alt="" onload="SVGInject(this)" />
+            <div class="card-name">CSS</div>
+          </div>
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/sass.svg" alt="" onload="SVGInject(this)" />
+            <div class="card-name">Sass</div>
+          </div>
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/javascript.svg" alt="" onload="SVGInject(this)" />
+            <div class="card-name">JavaScript</div>
+          </div>
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/react.svg.svg" alt="" onload="SVGInject(this)" />
+            <div class="card-name">React</div>
+          </div>
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/figma.svg" alt="" onload="SVGInject(this)" />
+            <div class="card-name">Figma</div>
+          </div>
+          <div class="card" data-aos="flip-left">
+            <img src="svgs/github.svg" alt="" onload="SVGInject(this)" />
+            <div class="card-name">Git</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>Copyright © 2024 MathiasFuhr. Todos os direitos reservados.</p>
+        <ul>
+          <li>
+            <a href="https://github.com/mathiasfuhr" target="_blank"
+              ><img
+                src="svgs/Link → gitHub.svg.svg"
+                alt=""
+                onload="SVGInject(this)"
+            /></a>
+          </li>
+          <li>
+            <a href="mailto:mathiasgilvanf@gmail.com"
+              ><img src="svgs/email.svg" alt="" onload="SVGInject(this)"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/mathias-g-fuhr/"
+              target="_blank"
+              ><img
+                src="svgs/icons8-linkedin-24.svg"
+                alt=""
+                onload="SVGInject(this)"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/5511987654321/?text=Ola%2C%20estou%20entrando%20em%20contato"
+              target="_blank"
+              ><img src="svgs/whatsapp.svg" alt="" onload="SVGInject(this)"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+     AOS.init({
+      duration: 1000,
+      once: true,
+    });
+    </script>
+  </body>
+</html>
