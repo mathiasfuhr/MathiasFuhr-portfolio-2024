@@ -49,11 +49,3 @@ function startTypingAnimation() {
 // Inicia a animação quando a página terminar de carregar
 window.addEventListener("load", startTypingAnimation);
 
-
-
-document.getElementById('show-more-projects').addEventListener('click', function (event) {
-    event.preventDefault(); // Evita que o link recarregue a página
-
-    // Alterna a classe 'hidden' nos projetos adicionais
-    document.querySelector('.more-projects').classList.toggle('hidden');
-});

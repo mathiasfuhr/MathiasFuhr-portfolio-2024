@@ -397,7 +397,7 @@ footer .container ul li svg path:hover {
 }
 .s-projects .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 3rem;
   justify-content: center; /* Centraliza os cards horizontalmente */
   align-items: center; /* Centraliza verticalmente */
@@ -447,19 +447,6 @@ footer .container ul li svg path:hover {
   transition: 0.3s;
 }
 .s-projects .cards .card .card-text .card-links a:hover {
-  opacity: 0.7;
-}
-.s-projects .open-projects {
-  display: block;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  color: #e0e0e0;
-  margin-top: 6.1rem;
-  transition: all 0.3s;
-}
-.s-projects .open-projects:hover {
-  transform: scale(1.1);
   opacity: 0.7;
 }
 @media (max-width: 991px) {

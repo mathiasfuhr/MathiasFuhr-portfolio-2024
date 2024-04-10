@@ -140,7 +140,7 @@
   }
   .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 3rem;
     justify-content: center; /* Centraliza os cards horizontalmente */
     align-items: center; /* Centraliza verticalmente */
@@ -193,19 +193,6 @@
       }
     }
   }
-  .open-projects {
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    color: #e0e0e0;
-    margin-top: 6.1rem;
-    transition: all 0.3s;
-    &:hover {
-      transform: scale(1.1);
-      opacity: 0.7;
-    }
-  }
   @include responsive(991px) {
     .cards {
       grid-template-columns: repeat(2, 1fr);
@@ -239,7 +226,10 @@
     .cards {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-columns: repeat(auto-fill, minmax(194.55px, 1fr)); /* Usando auto-fill para distribuição automática */
+      grid-template-columns: repeat(
+        auto-fill,
+        minmax(194.55px, 1fr)
+      ); /* Usando auto-fill para distribuição automática */
       gap: 6rem 5rem;
       .card {
         width: 100%; /* Usando largura de 100% para ocupar o espaço disponível */
